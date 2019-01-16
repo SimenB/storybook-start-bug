@@ -1,0 +1,24 @@
+{
+  "name": "hmmm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "storybook:build": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@storybook/addon-actions": "5.0.0-alpha.4",
+    "@storybook/addon-viewport": "5.0.0-alpha.4",
+    "@storybook/addons": "5.0.0-alpha.4",
+    "@storybook/react": "5.0.0-alpha.4",
+    "babel-loader": "^8.0.5",
+    "prettier": "^1.15.3"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
